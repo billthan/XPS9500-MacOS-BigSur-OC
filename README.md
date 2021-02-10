@@ -1,1 +1,1 @@
-# XPS-9500-MacOS-BigSur-OC
+# XPS9500-MacOS-BigSur-OC
