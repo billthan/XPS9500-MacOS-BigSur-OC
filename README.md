@@ -47,15 +47,14 @@ Quick Note: My serial number, MLB, and UUID have been removed from the config.pl
 |Built-in webcam|Working|
 |Sleep|Dell BIOS bug (Enable "block sleep" in BIOS to disable S3 for now)|
 
-## What you need to know that isn't mentioned in Dortania's Opencore guide:
-
-1. SATA Mode in BIOS must be set to `AHCI`. This **will cause a kernel panic** when booting into the Mac OS X USB installer.
+---
 
 ## BIOS Settings [source](https://github.com/zachs78/MacOS-XPS-9500-OpenCore)
 
 Disable the following
- - VT-d
- - TPM
+ - SATA Mode set to `AHCI`
+ - `VT-d` disabled
+ - `TPM` disabled
  - Sleep (Enable block sleep)
  - SD Card slot
  - Touchscreen (if you have one)
