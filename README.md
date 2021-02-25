@@ -83,3 +83,11 @@ If you update your BIOS, you may need to do this again but so far Dell has been 
 
 ---
 
+## Fixing iServices
+
+You will have to follow this [guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html) to fix your iServices (Facetime, iMessages, iCloud).
+
+There is a chance you may have to call Apple, this was the case for me.
+
+---
+
