@@ -9,7 +9,7 @@ The EFI included in this repository is to boot macOS 11.2.1 Dell XPS 15 9500. Th
 
 ## Specs
 
-| Key                    | Value                                                        |
+| Componenet             | Value                                                        |
 | ---------------------- | ------------------------------------------------------------ |
 | CPU                    | Intel Core i5 10300H                                         |
 | GPU                    | Intel UHD Graphics 630                                       |
@@ -24,7 +24,7 @@ The EFI included in this repository is to boot macOS 11.2.1 Dell XPS 15 9500. Th
 Quick Note: My serial number, MLB, and UUID have been removed from the config.plist. Please use CorpNewt's [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to create your own.
 
 
-## What Works
+## Functionality
 
 |Function / Hardware|Status|
 |-|-|
@@ -49,7 +49,7 @@ Quick Note: My serial number, MLB, and UUID have been removed from the config.pl
 
 ---
 
-## BIOS Settings [source](https://github.com/zachs78/MacOS-XPS-9500-OpenCore)
+## BIOS Settings ([source](https://github.com/zachs78/MacOS-XPS-9500-OpenCore))
 
 Disable the following
  - SATA Mode set to `AHCI`
@@ -64,7 +64,7 @@ Disable the following
 
 ---
 
-## How to disable CFG Lock [source](https://github.com/zachs78/MacOS-XPS-9500-OpenCore)
+## How to disable CFG Lock ([source](https://github.com/zachs78/MacOS-XPS-9500-OpenCore))
 
 This is specific to XPS 15 9500 only (along with its sibling models and previous gen).
 
